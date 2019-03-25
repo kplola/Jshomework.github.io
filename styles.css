@@ -1,0 +1,125 @@
+
+body {
+    margin-left: 200px;
+    background-color: whitesmoke;
+    height: 1500px;
+   
+}
+
+.navbar {
+    margin-top: 50px;
+    position: absolute;
+    width: 200px; /* Set a width if you like */
+  }
+  
+.navbar a {
+   
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 2px; 
+    text-decoration: none;
+
+    margin: 5px;
+    padding: 5px;
+    border-right: 0.5px solid darkgray;
+    border-top: 0.5px solid darkgray;
+    border-left: 7px solid dimgray;
+    border-bottom: 0.5px solid darkgray;
+  }
+  
+.navbar a:hover {
+    background-color: #ccc; 
+    color: indianred;
+  }
+
+h1 {
+    color: #17252a;
+    padding-left: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 960px;
+    height: 60px;
+}
+
+ul.navbar {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    right: 10px;
+    width: 150px;
+
+}
+
+  a:link {
+    color: grey;
+  }
+  
+#first{
+    width: 50px;
+    height: 50px;
+  }
+
+#container {
+    display: block;
+    margin: 40px;
+    padding: 10px;
+  }
+
+#main {
+    width: 960px;
+    margin-left: 150px;
+    margin-right: 400px;
+}
+
+hr {
+    height: 1px;
+    color: dimgray;
+}
+
+/*.content {
+    height: 700px;
+}
+.panes {
+    height: 600px;
+}
+.paragraph {
+    height:122px;
+    width: 436.68px;
+}
+*/
+h1 {
+    margin: 10px 10px 5px;
+    text-align: center;
+    font-family: fantasy;
+}
+h4, h5 {
+    font-style: italic;
+    font-size: 14px;
+}
+
+h2{
+    width: 436.68px;
+    height: 12px;
+}
+.shopdiv {
+    width: 1000px;
+    text-align: center;
+    margin: 70px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+input [type="button"] {
+    font-style: italic;
+    margin: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
